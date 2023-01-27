@@ -2,6 +2,9 @@
 
     background-color: #ff4c68;
     color: white;
+    position: relative;
+    z-index: -1;
+    height: 775px;
 
 }
 
@@ -92,6 +95,7 @@ p {
 
     width: 60%;
     transform: rotate(25deg);
+    margin-left: 100px;
 
 }
 
@@ -99,7 +103,10 @@ p {
 
 #features {
 
+    background-color: white;
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
 
 }
 
@@ -128,7 +135,6 @@ p {
 
 #testimonials {
 
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -139,7 +145,7 @@ p {
 
     border-radius: 100%;
     width: 10%;
-    margin: 20px;
+    margin: 5px;
 
 }
 
@@ -153,4 +159,30 @@ p {
 
 }
 
-.press-image {}
+.press-image {
+
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+.carousel-item {
+
+    padding: 7% 15% 4% 15%;
+
+}
+
+/* Pricing Section */
+
+#pricing {
+
+    padding: 100px;
+    text-align: center;
+
+}
+
+.pricing-column {
+
+    padding: 3% 2%;
+
+}
